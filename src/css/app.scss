@@ -1,1 +1,29 @@
 // app global css in SCSS form
+@font-face {
+  font-family: 'harmony';
+  src: url('/src/assets/fonts/harmony.otf');
+}
+
+.bg-grey {
+  background-color: rgb(237, 234, 234) !important;
+}
+
+.font-harmony {
+  font-family: harmony !important;
+}
+
+.q-field--outlined .q-field__control {
+  background-color: white !important;
+  border-radius: 7px !important;
+}
+
+.q-field--outlined::after .q-field__control::after {
+  background-color: white !important;
+  border-radius: 7px !important;
+}
+
+.q-btn {
+  border-radius: 7px !important;
+}
+
+
